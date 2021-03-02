@@ -1,0 +1,69 @@
+body {
+    font:Verdana; 
+    font-size:14pt; 
+    font-style:normal;
+    background: fixed;
+    background-image: url("battle.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;  
+    background-size: cover;
+    position: relative;
+  }
+
+ table {
+    border-spacing: 0px;
+    position:relative;
+    left:172px;
+    top:98px;  
+    width: 100%;
+    border:solid black 3pt;     
+    text-align:inherit;
+    bottom:-2%;
+  }
+
+  td {
+    border:solid black 1pt; 
+    width:90px;
+    height:95px; 
+    
+  }
+  
+div#board{
+    position:relative;
+    width:1024px;
+    height:925px;
+    margin:0;
+}
+
+div#messageArea{
+    position:relative;
+    top:0px;
+    left:0px;
+    color:black;
+}
+
+.hit{
+    background-image: url(ship.jpg) no-repeat center center;
+}
+
+.miss{
+    background-image: url(miss.jpg) no-repeat center center;
+}
+
+
+form{
+    position:absolute;
+    bottom:-2%;
+    right: 0px;
+    padding:15px;
+    background-color:black;
+    color:whitesmoke;
+    
+}
+
+form input{
+    background-color: rgba(120,204,51);
+    border-color: black;
+    font-size: 1en;
+}
